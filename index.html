@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Experience</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/core.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+    </header>
+    <div class="container">
+      <nav class="nav">
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="menu">
+          <li class="menu__list"><a href="#" class="menu__link"><ion-icon name="home"></ion-icon></a></li>
+          <li class="menu__list"><a href="#" class="menu__link"><ion-icon name="receipt"></ion-icon></a></li>
+          <li class="menu__list"><a href="#" class="menu__link"><ion-icon name="book"></ion-icon></a></li>
+          <li class="menu__list"><a href="#" class="menu__link"><ion-icon name="search"></ion-icon></a></li>
+          <li class="menu__list"><a href="#" class="menu__link"><ion-icon name="create"></ion-icon></a></li>
+          <li class="menu__list"><a href="#" class="menu__link"><ion-icon name="chatbubble"></ion-icon></a></li>
+          <li class="menu__list"><a href="#" class="menu__link"><ion-icon name="people"></ion-icon></a></li>
+          <!--          <li class="menu__list"><a href="#" class="menu__link"><ion-icon name="person-circle"></ion-icon></a></li>-->
+        </ul>
+        <div class="chatbot-darkmode">
+          <button class="dark-mode-btn">
+            <img src="images/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+            <img src="images/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+          </button>
+        </div>
+      </nav>
+      <div class="modal" id="my-modal">
+        <div class="modal__box">
+          <button class="modal__close-btn" id="close-my-modal-btn">
+            <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                fill="#333333" />
+              <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+            </svg>
+          </button>
+          <div class="modal-menu">
+            <div class="modal-menu__icon-list">
+              <div class="modal__icon"><ion-icon name="home"></ion-icon></div>
+              <div class="modal__list"><a href="#">Главная</a></div>
+            </div>
+            <div class="modal-menu__icon-list">
+              <div class="modal__icon"><ion-icon name="receipt"></ion-icon></div>
+              <div class="modal__list"><a href="#">Тестирование</a></div>
+            </div>
+            <div class="modal-menu__icon-list">
+              <div class="modal__icon"><ion-icon name="book"></ion-icon></div>
+              <div class="modal__list"><a href="#">Библиотека</a></div>
+            </div>
+            <div class="modal-menu__icon-list">
+              <div class="modal__icon"><ion-icon name="create"></ion-icon></div>
+              <div class="modal__list"><a href="#">Курсы</a></div>
+            </div>
+            <div class="modal-menu__icon-list">
+              <div class="modal__icon"><ion-icon name="chatbubble"></ion-icon></div>
+              <div class="modal__list"><a href="#">Задания</a></div>
+            </div>
+            <div class="modal-menu__icon-list">
+              <div class="modal__icon"><ion-icon name="people"></ion-icon></div>
+              <div class="modal__list"><a href="#">Рейтинг студента</a></div>
+            </div>
+            <div class="modal-menu__icon-list">
+              <div class="modal__icon"><ion-icon name="notifications"></ion-icon></div>
+              <div class="modal__list"><a href="#">Уведомление</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="time-table">
+        <div class="time-table__title">       
+          <ul class="menu-nav">
+            <li class="menu-nav__list"><a href="#" class="menu-nav__link">1</a></li>
+            <li class="menu-nav__list"><a href="#" class="menu-nav__link">2</a></li>
+            <li class="menu-nav__list"><a href="#" class="menu-nav__link">3</a></li>
+            <li class="menu-nav__list"><a href="#" class="menu-nav__link">4</a></li>
+            <li class="menu-nav__list"><a href="#" class="menu-nav__link">5</a></li>
+            <li class="menu-nav__list"><a href="#" class="menu-nav__link">6</a></li>
+            <li class="menu-nav__list"><a href="#" class="menu-nav__link">7</a></li>
+            <li class="menu-nav__list"><a href="#" class="menu-nav__link">8</a></li>
+          </ul>
+          <div class="date">
+            <h4>15.01.2024, ПН - 20.01.2024, СБ</h4>
+          </div>
+        </div>
+        <section class="table-body">
+          <table>
+            <thead>
+              <th>ЯНВ</th>
+              <th>Группа</th>
+              <th>Время занятия</th>
+              <th>Дисциплина</th>
+              <th>Вид занятия</th>
+              <th>Аудитория</th>
+              <th>Преподаватель</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="7" class="day-start">Пн, 15</td>
+                <td>ИСТ-1-20</td>
+                <td>08:30</td>
+                <td>SQL и процедурно-ориентированные языки</td>
+                <td>Лек.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Асымбеков К.</td>
+              </tr>
+              <tr>
+                <td>ИСТ-1-20</td>
+                <td>10:00</td>
+                <td>Разработка мобильных приложений</td>
+                <td>Лек.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Раева Ч.Т.</td>
+              </tr>
+              <tr>
+                <td>ИСТ-1-20</td>
+                <td>11:30</td>
+                <td>Геоинформационные технологии</td>
+                <td>Лек.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Тургунбаева З.Б.</td>
+              </tr>
+              <thead class="th-transparent">
+                <th></th>
+              </thead>
+              <tr>
+                <td rowspan="7" class="day-start">Вт, 16</td>
+                <td>ИСТ-1-20</td>
+                <td>08:30</td>
+                <td>SQL и процедурно-ориентированные языки</td>
+                <td>Лек.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Асымбеков К.</td>
+              </tr>
+              <tr>
+                <td>ИСТ-1-20</td>
+                <td>10:00</td>
+                <td>Геоинформационные технологии</td>
+                <td>Лаб.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Тургунбаева З.Б.</td>
+              </tr>
+              <tr>
+                <td>ИСТ-1-20</td>
+                <td>11:30</td>
+                <td>Геоинформационные технологии</td>
+                <td>Лек.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Тургунбаева З.Б.</td>
+              </tr>
+              <thead class="th-transparent">
+                <th></th>
+              </thead>
+              <tr>
+                <td rowspan="7" class="day-start">Ср, 17</td>
+                <td>ИСТ-1-20</td>
+                <td>08:30</td>
+                <td>Геоинформационные технологии</td>
+                <td>Лек.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Тургунбаева З.Б.
+                <td>
+              </tr>
+              <tr>
+                <td>ИСТ-1-20</td>
+                <td>10:00</td>
+                <td>Разработка мобильных приложений</td>
+                <td>Лек.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Раева Ч.Т.</td>
+              </tr>
+              <thead class="th-transparent">
+                <th></th>
+              </thead>
+              <tr>
+                <td rowspan="7" class="day-start">Чт, 18</td>
+                <td>ИСТ-1-20</td>
+                <td>08:30</td>
+                <td>Разработка мобильных приложений</td>
+                <td>Лаб.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Тургунбаева З.Б.
+                <td>
+              </tr>
+              <tr>
+                <td>ИСТ-1-20</td>
+                <td>10:00</td>
+                <td>Разработка мобильных приложений</td>
+                <td>Лаб.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Раева Ч.Т.</td>
+              </tr>
+              <thead class="th-transparent">
+                <th></th>
+              </thead>
+              <tr>
+                <td rowspan="7" class="day-start">Пт, 19</td>
+                <td>ИСТ-1-20</td>
+                <td>08:30</td>
+                <td>Геоинформационные технологии</td>
+                <td>Лаб.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Тургунбаева З.Б.
+                <td>
+              </tr>
+              <tr>
+                <td>ИСТ-1-20</td>
+                <td>10:00</td>
+                <td>Разработка мобильных приложений</td>
+                <td>Лек.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Раева Ч.Т.</td>
+              </tr>
+              <tr>
+                <td>ИСТ-1-20</td>
+                <td>11:30</td>
+                <td>SQL и процедурно-ориентированные языки</td>
+                <td>Лек.</td>
+                <td>Учебный корпус №3б. Технолого-экономический факультет/204б</td>
+                <td>Асымбеков .К.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://www.chatbase.co/embed.min.js" chatbotId="oeaEYDS_kztqLDu1jbPh7" domain="www.chatbase.co">
+  </script>
+  <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
